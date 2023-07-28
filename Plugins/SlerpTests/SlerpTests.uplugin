@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SlerpTests",
+	"Description": "For testing the difference in performance between Epic's Slerp_NotNormalized function and my slerp functions without having to compile the engine from scratch.",
+	"Category": "Other",
+	"CreatedBy": "Samuel Payne",
+	"CreatedByURL": "https://github.com/sapayne",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SlerpTests",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			],
+			"BlacklistPlatforms": [
+				"Android",
+				"IOS",
+				"Linux"
+			]
+		}
+	]
+}
